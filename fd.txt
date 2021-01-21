@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en"><head><title>Socrative</title><link rel="shortcut icon" href="https://assets.socrative.com/favicon.ico"><meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1, width=device-width"><meta name="theme-color" content="#8cb4d2"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="google" content="notranslate"><meta http-equiv="Content-Language" content="en"><meta name="MobileOptimized" content="480"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="google-site-verification" content="ArL5R90c597UaAk4Thb5jPAZsrXIvzfhZDeSfdkNkWk"><style>@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto+Mono:300|Roboto:500&subset=latin-ext');</style><script src="https://assets.socrative.com/libs/pubnub-4.20.0.min.js"></script><script>window.backend_host = 'https://api.socrative.com';
+window.teacher_service = 'https://teacher.socrative.com';
+window.marketing_host = 'https://www.socrative.com';
+window.static_url = 'https://assets.socrative.com/3.9.7/';
+window.libs_url = 'https://assets.socrative.com/libs/';
+window.intercom_app_id = 'ja2v5o2m';
+window.sentry_dsn = 'https://d7efefdd7e5d4fb9837a0547c596b1c1@sentry.io/1324037';
+window.sentry_env = 'production';
+window.app_version = '3.9.7';
+window.supported_flags = {
+  quiz_editor_version: 3
+};
+window.showbie_login_url = 'https://my.showbie.com/signin';
+window.pubnub = new PubNub({
+    subscribeKey: 'sub-c-6dcf3cd2-13e8-11e3-8f5a-02ee2ddab7fe',
+    origin: 'pubsub.pubnub.com',
+    ssl: true
+});</script><script>(function () {
+  var w = window;
+  var ic = w.Intercom;
+  if (typeof ic === "function") {
+    ic('reattach_activator');
+    ic('update', intercomSettings);
+  } else {
+    var d = document;
+    var i = function () {i.c(arguments)};
+    i.q = [];
+    i.c = function (args) {i.q.push(args)};
+    w.Intercom = i;
+
+    function l () {
+      var s = d.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = 'https://widget.intercom.io/widget/ja2v5o2m';
+      var x = d.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+
+    if (w.attachEvent) {w.attachEvent('onload', l);} else {w.addEventListener('load', l, false);}
+  }
+})()
+</script><link type="text/css" rel="stylesheet" href="https://assets.socrative.com/3.9.7/css/student.min.css"><script src="https://assets.socrative.com/libs/TweenLite.min.js?v=2"></script></head><body id="body"><div id="student-page-container"><div id="student-header-container"></div><div id="status-container"></div><div id="content-container"></div><footer class="vertical-align" id="footer"></footer></div><script>var SOCRATIVE=SOCRATIVE||{};SOCRATIVE.initTemplateLoader={start:function(){document.getElementById("body").insertAdjacentHTML("beforeend",'<div id="loader"><div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div id="loader-message">Loading.</div></div>');var a=0,b=document.getElementById("loader-message"),c=function(){a++,a>9&&(b.innerHTML="Still working on it."),a>16&&(b.innerHTML="We're making progress."),a>24&&(b.innerHTML="Did you know? Socrative supports teachers in over 150 countries!"),a>34&&(b.innerHTML="Did you know? Socrative users have created over 6 million quizzes!")};this.intervalId=setInterval(c,1e3)},stop:function(){var a=document.getElementById("loader");null!=a&&a.parentNode.removeChild(a),clearInterval(this.intervalId)}},SOCRATIVE.checkTime={start:function(){var a=this,b=function(){SOCRATIVE.initTemplateLoader.start(),a.reset()};this.intervalId=setInterval(b,3e3)},reset:function(){clearInterval(this.intervalId)}},SOCRATIVE.checkTime.start();</script><script src="https://assets.socrative.com/3.9.7/js/common.bundle.min.js"></script><script src="https://assets.socrative.com/3.9.7/js/student.bundle.min.js"></script></body></html>
