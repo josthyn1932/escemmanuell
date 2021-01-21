@@ -1,0 +1,558 @@
+/* utilizar todo el borde del sitio web y color de fondo */
+*{
+	box-sizing: border-box; 
+    margin: 0;
+    padding: 0 auto;
+}
+.logo img{
+	width: 250px;
+	height: 150px
+	box-sizing:border-box;
+}
+body{
+	background: #808B96;
+	font-size: 20px;
+}
+.header{
+	width: 100%;
+}
+/* posicionamiento del menu y animacione del mismo*/
+.navegacion{
+	width: 100%;
+	max-width: 100%
+	margin:0 auto;
+	background: #fff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+.menu > li{
+	position:0 absolute;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 10px 60px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	text-align: left;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.banner1{
+   position: 0 auto;
+	width: 100%;
+	max-width: 100%;
+	height: 400px;
+	margin: 0 auto;
+
+}
+
+.banner2{
+   position: 0 auto;
+	width: 25%;
+	max-width: 25%;
+	height: 25% !important;
+	margin: 0 auto;
+
+}
+/* tamaño del contedor de del sitio web */
+.container_principal{
+	width: 90%;
+	max-width: 100%;
+	margin: 0 auto;
+	background: black;
+	box-sizing:border-box;
+
+}
+
+.container{
+	text-align: center;
+	background: url(https://blog.structuralia.com/hubfs/2020-01-29%20%288%29.jpg);
+	z-index: 2px;
+	width: 100%;
+	max-width: 100%
+	margin:0 auto;
+	padding: 3em;
+	box-sizing:border-box;
+}
+.container2{
+	text-align: center;
+	background-color: #E6E6E6;
+	background: url(https://blog.structuralia.com/hubfs/2020-01-29%20%288%29.jpg);
+	z-index: 2px;
+	width: 100%;
+	margin: auto;
+	padding: 3em;
+}
+.container22{
+	font-size: 20px;
+	text-align: center;
+	background: gray;
+	z-index: 2px;
+	width: 100%;
+	margin: auto;
+	padding: 3em;
+	box-sizing:border-box;
+}
+.container3{
+	text-align: center;
+	background-color: #E6E6E6;
+	z-index: 2px;
+	width: 100%;
+	margin: auto;
+	padding: 3em;
+	box-sizing:border-box;
+}
+.containerr{
+box-sizing:border-box;
+	width:100% ;
+	height: 100%;
+	margin-top: 3% !important ;
+	margin: auto;
+	text-align: center;
+}
+
+.containerr2{
+background-color: black;
+	width:82% ;
+	height: 100%;
+	margin-top: 3% !important ;
+	margin: auto;
+	box-sizing:border-box;
+	
+}
+
+.container h2{
+      color:#D35400;
+}
+
+/* tarjetas de los diferentes productos */
+.tarjetas{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 1px;
+    font-size: 5px !important;    
+    padding: 5px;
+    font-size: 14px;	
+    box-sizing:border-box;
+    font-family: Verdana;
+    text-align: left;
+    color:white;
+    text-align: center;
+}
+.tarjetas h2{
+    color:#D35400;
+}
+.tarjetas div{
+	font-size: 14px;	
+    box-sizing:border-box;
+    font-family: Verdana;
+    text-align: left;
+	color:red;
+	border:solid;
+	padding: 12px;
+	 box-sizing:border-box;
+}
+.tarjetas img{
+	font-size: 14px;	
+    box-sizing:border-box;
+    font-family: Verdana;
+    text-align: left;
+	border:solid;
+	width: 106%;
+	position: relative;
+	top: -43px;
+	left: 23px
+	 box-sizing:border-box;
+}
+.tarjetasi img{
+	font-size: 14px;	
+    box-sizing:border-box;
+    font-family: Verdana;
+    text-align: left;
+    color:white;
+	 box-sizing:border-box;
+	width: 350px;
+	height: 350px;
+}
+
+.tarjetas a{
+	 box-sizing:border-box;
+	text-decoration: none; 
+	color: black;
+}
+.tarjetas a:hover{
+	 box-sizing:border-box;
+	color: #808B96;
+	transition: all .3s;
+	text-decoration: underline;
+}
+.banner2{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	top: -50px;
+}
+.instalaciones{
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+	color: white;
+	box-sizing:border-box;
+}
+/* Conjunto de imagenes */
+.casas1{
+	box-sizing:border-box;
+	display: flex;
+	grid-template-columns: repeat(4,1fr);
+	margin:0 auto;
+}
+.casas1 div{
+	 border: solid #2C3E50; 
+	 box-sizing:border-box;
+
+}
+.casas1 img{
+	width: 278px;
+	height: 250px;
+	margin:0 auto;
+	box-sizing:border-box;
+}
+
+
+.presentacion{
+	box-sizing:border-box;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	color: white;
+	font-size: 19px;
+	text-shadow: 2px 2px 2px black;
+	font-family: impact;
+	background: #95A5A6;
+	padding: 22px;
+}
+.presentacion2{
+	box-sizing:border-box;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	color: white;
+	font-size: 19px;
+	text-shadow: 2px 2px 2px black;
+	font-family: impact;
+	background: #95A5A6;
+	padding: 22px;
+}
+/* footer */
+.final1{
+	box-sizing:border-box;
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+	padding: 30px;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	background: #85929E  ;
+	color: white;
+	padding: 15px;
+	list-style: none;
+	column-gap: 10px;
+	text-decoration: none;
+	font-family: Arial Narrow;
+	box-sizing:border-box;
+}
+.final1 a{
+	color: white;
+	text-decoration: none;
+	box-sizing:border-box;
+}
+.icono_de_redes{
+	box-sizing:border-box;
+	display: flex;
+}
+.icono_de_redes img{
+	width: 60px;
+	height: 60px;
+    font-size: 30px;
+    padding: 10px;
+} 
+.final2{
+	box-sizing:border-box;
+	background: #2C3E50 ;
+	color: white;
+	text-align: center;
+}
+.zoom:hover {
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    transition:all .5s ease-in-out; 
+}
+/* tamaño del input de la ventana de contactos */
+.tamano input{
+    width:50%;
+	height:50px;
+}
+.tamano2 input{
+    width:50%;
+	height:150px;
+}
+
+
+/* pagina de servicios */
+.servicios{
+	width: 100%;
+	max-width: 100%;
+    font-size: 30px;
+    position: absolute;
+    top: 475px;
+    left: 480px;
+  	z-index: 2px;
+    background: white;
+}
+.servicios2{
+    font-size: 30px;
+    position: absolute;
+    top: 1850px;
+    left: 480px;
+  	z-index: 2px;
+    background: white;
+}
+.linea{
+    position: relative;
+    border-top: 1px solid #AAA;
+    top: 20px;
+    left: 50px;
+    width: 60%;
+}
+.linea2{
+    position: relative;
+    border-top: 1px solid #AAA;
+    top: 20px;
+    left: 50px;
+    width: 60%;
+}
+.diferservicios{
+	font-family:  Verdana;
+	font-size: 20px;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	text-align: justify;
+	max-width: 100%
+	width:100%;
+	box-sizing:border-box;
+
+}
+.diferservicios div{
+	padding: 10px;
+	box-sizing:border-box;
+}
+.diferservicios a{
+	text-decoration: none;
+	color: black;
+	box-sizing:border-box;
+}
+.diferservicios a:hover{
+	color: #808B96;
+	transition: all .3s;
+	box-sizing:border-box;
+}
+.diferservicios2{
+	text-shadow: 0.1em 0.1em 0.05em #333
+	box-sizing:border-box;
+}
+.diferservicios img{
+	box-sizing:border-box;
+	width: 500px;
+	height: 230px;
+
+}
+/* pagina de nosotros */
+.tarjetas2 img{
+	border:solid;
+	width: 250px;
+	height: 230px;
+	position: relative;
+	top: -43px;
+	left: 23px
+}
+.terminos{
+	text-align: justify;
+}
+
+/* CUESTIONARIO  */
+.pregresp {
+border: 1px solid #7DA5E0;
+padding: 10px;
+margin: 10px;
+font-family: Arial, sans-serif;
+font-size: 24px;
+font-weight: bold;
+}
+
+.pregunta {
+color: white;
+font-size: 28px;
+text-align: left;
+}
+
+.respuestas {
+color: white;
+text-align: left;
+}
+
+
+@media screen and (max-width: 800px){
+	.container_principal{
+		max-width: 100%;
+		background: yellow;
+	}
+	.tarjetas{
+        max-width: 100%;
+        max-height: 100%;
+        font-size: 9px;
+        text-align: left;
+    }
+    .tarjetas img{
+       display: none;
+
+    }
+    .tarjetas h2{
+    	font-size: 9px;
+    }
+    .logo{
+        max-width: 100%
+    }
+    .instalaciones{
+        max-width: 100%;
+    }
+    .casas1{
+        display: none;
+    }
+    .banner1{
+    	max-height: 200px;
+    }
+    .banner2{
+    	max-height: 200px;
+    }
+    .container22{
+    	max-width: 100%;
+    }
+    .diferservicios img{
+    	max-width: 100%;
+    }
+    .logo img{
+     max-width: 150px;
+    }
+     .final1{
+    	font-size: 10px;
+    }
+    .container{
+    	font-size: 9px;
+    }
+    .presentacion2{
+    	display: none;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+	.container_principal{
+		max-width: 100%;
+		background: green;
+	}
+	.tarjetas{
+        max-width: 95%;
+        max-height: 100%;
+        font-size: 9px;
+        text-align: left;
+    }
+    .tarjetas img{
+       display: none;
+    }
+    .logo{
+        max-width: 100%
+    }
+    .instalaciones{
+        max-width: 100%;
+    }
+    .casas1{
+        display: none;
+    }
+    .banner1{
+    	max-height: 200px;
+    }
+    .banner2{
+    	max-height: 200px;
+    }
+    .container22{
+    	max-width: 100%;
+    	font-size: 16px;
+    }
+    .diferservicios img{
+    	display: none;
+    }
+    .diferservicios{
+    	font-size: 9px;
+    }
+    .logo{
+     max-width: 50px;
+     max-height: 90px;
+     display: none;
+    }
+    .icono_de_redes img{
+    	width: 50px;
+    	height: 50px;
+    }
+    .final1{
+    	font-size: 8px;
+    }
+    .container{
+    	font-size: 8px;
+    }
+    .tarjetas{
+    	font-size: 2px;
+    }
+    .tarjetas h2{
+    	font-size: 9px;
+    }
+    .iframe{
+    	max-width: 500px;
+
+    }
+    .presentacion2{
+    	display: none;
+    }
+  
+}
