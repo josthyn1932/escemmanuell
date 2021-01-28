@@ -123,7 +123,7 @@ body{
 	z-index: 2px;
 	width: 100%;
 	margin: auto;
-	font-size:14px;
+	font-size:18px;
 	padding: 3em;
 	box-sizing:border-box;
 }
@@ -469,7 +469,7 @@ text-align: left;
     }
     .container22{
     	max-width: 100%;
-    	font-size: 8px !important;
+    	font-size: 8px;
     	text-align: left;
     }
     .diferservicios img{
