@@ -468,7 +468,7 @@ text-align: left;
     }
     .container22{
     	max-width: 100%;
-    	font-size: 8px;
+    	font-size: 8px !important;
     	text-align: left;
     }
     .diferservicios img{
